@@ -1,0 +1,561 @@
+@media(min-width: 0px) and (max-width: 767px){
+    .body-gap {
+    padding: 0px;
+    }
+    .nav-head{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999999999999999;
+    background-color: #fff;
+    }
+    .shop {
+    grid-template-columns: 50% 50%;
+    padding: 15px;
+    top: -260px;
+    left: 0px;
+    right: 0px;
+    height: 100vh;
+    }
+    .details:hover .shop #shop-close{
+    display: block;
+    }
+    .nav-cart li:not(:first-child){
+    display: none;
+    }
+    .price-position ul li:first-child{
+    display: none;
+    }
+    .price-position ul li:last-child{
+    display: block;
+    }
+    .dropdown-link{
+    right: -17px;
+    }
+    .appliance:hover .phone-acc {
+    left: 0px;
+    right: -30px;
+    z-index: 1;
+    height: 100vh;
+    }
+    .phone-acc::before {
+    transform: translateX(0%);
+    top: -2px;
+    }
+    .appliance .phone-acc li a{
+    color: #ff2c66;
+    font-weight: 700;
+    } 
+    .appliance:hover #close-icon{
+    display: block;
+    }
+    .computer-detail:hover .computer-access {
+    left: 0px;
+    right: -30px;
+    z-index: 1;
+    height: 100vh;
+    }
+    .computer-detail:hover #hide{
+    display: block;
+    }
+    .computer-access::before {
+    transform: translateX(0%);
+    top: -2px;
+    }
+    .computer-detail .computer-access li a{
+    color: #ff2c66;
+    font-weight: 700;
+    }
+    .video-formation:hover .video-type {
+    left: 0px;
+    right: -30px;
+    z-index: 1;
+    height: 100vh;
+    visibility: visible;
+    }
+    .video-type::before {
+    top: -2px;
+    transform: translateX(0%);
+    }
+    .video-formation:hover #hide-menu{
+    display: block;
+    }
+    .video-formation .video-type li a{
+    color: #ff2c66;
+    font-weight: 700;
+    }
+    .watch-formate:hover .watch-type {
+    left: 0px;
+    right: -30px;
+    z-index: 1;
+    height: 100vh;
+    visibility: visible;
+    }
+    .watch-type::before {
+    top: -2px;
+    transform: translateX(0%);
+    }
+    .watch-formate:hover #hide-icon{
+    display: block;
+    }
+    .watch-formate .watch-type li a{
+    color: #ff2c66;
+    font-weight: 700;
+    }
+    .headphone-formate:hover .headphone-type {
+    display: block;
+    visibility: visible;
+    left: 0px;
+    right: -30px;
+    height: 100vh;
+    z-index: 1;
+    }
+    .headphone-type::before {
+    transform: translatex(0%);
+    }
+    .headphone-formate:hover .headphone-icon{
+    display: block;
+    }
+    .headphone-formate .headphone-type li a{
+    color: #000;
+    font-weight: 700;
+    }
+    .hide-icon{
+    display: block;
+    }
+    .entertain{
+    margin-top: 167px;
+    }
+    .brand-content{
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    }
+    .brand-content div{
+    margin: auto;
+    }
+    .brand-content div a img {
+    display: block;
+    margin: auto;
+    }
+    .items-acc{
+    grid-template-columns: 100%;
+    }
+    .sell-list-item {
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    }
+    .mobile-watch{
+    grid-template-columns: 100%;
+    }
+    .accessories-list {
+    grid-template-columns: 100%;
+    }
+    .discount-code{
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .sellers-list h3{
+    font-size: 19px;
+    }
+    .sell-list-item .smart-delivery {
+    padding: 14px 0px 0px;
+    }
+    .smart-delivery:not(:last-child) {
+    margin-right: 0px;
+    }
+    .smart-delivery:hover .woocse {
+    left: -31px;
+    }
+    .device-item {
+    padding: 14px 0px 0px;
+    }
+    .device-item-details .device-item:nth-child(3) {
+    margin: -45px 0px 0px;
+    }
+    .device-item-details .device-item:nth-child(4) {
+    margin: -45px 0px 0px;
+    }
+    .device-item-details .device-item:nth-child(5) {
+    margin: -45px 0px 0px;
+    }
+    .device-item-details .device-item:nth-child(6) {
+    margin: -45px 0px 0px;
+    }
+    .headphones {
+    margin-top: 0px;
+    }
+    .device-item-details {
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    }
+    .device-item:hover .product-repeat {
+    left: -31px;
+    top: 40px;
+    }
+    .price ul li:last-child {
+    font-size: 18px;
+    }
+    .rate-monitor{
+    bottom: -175px;
+    }
+    .product-bose {
+    padding: 27px 0px;
+    }
+    .product-info-link {
+    padding: 0px 0px 10px;
+    }
+    .product-bose:hover .like-product {
+    left: 0px;
+    }
+    .trend-item-list {
+    padding: 0px;
+    }
+    .margin-minus {
+    margin-top: 30px;
+    }
+    .footer-logo{
+    flex-direction: column;
+    align-items: flex-end;
+    }
+    .footer-logo img{
+    width: 50%;
+    }
+    .footer-logo ul li a {
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    }
+    .payment-method {
+    flex-direction: column-reverse;
+    }
+    .smartphone-accessories ul li:first-child {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    }
+    .product-repeat li:nth-child(1) a {
+    padding: 0px;
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    }
+    .product-repeat li:nth-child(2) a {
+    padding: 0px;
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    }
+    }
+    @media(min-width: 768px) and (max-width: 990px){
+    .appliance:hover .phone-acc {
+    left: -322px;
+    }
+    .computer-detail:hover .computer-access {
+    left: -477px;
+    bottom: -409px;
+    }
+    .computer-access::before {
+    transform: translateX(0%);
+    }
+    .video-formation:hover .video-type {
+    left: -485px;
+    bottom: -371px;
+    }
+    .video-type::before {
+    transform: translateX(0%);
+    }
+    .watch-formate:hover .watch-type {
+    left: -486px;
+    bottom: -327px;
+    }
+    .watch-type::before {
+    transform: translateX(0%);
+    }
+    .headphone-formate:hover .headphone-type {
+    bottom: -284px;
+    left: -323px;
+    }
+    .device-item-details {
+    grid-template-columns: 50% 50%;
+    }
+    .price h2 a {
+    padding: 6px 8px;
+    font-size: 16px;
+    }
+    .price ul li:last-child{
+    font-size: 20px;
+    }
+    .rate-monitor{
+    bottom: -152px;
+    }
+    .product-shiping ul li:first-child {
+    font-size: 15px;
+    }
+    .product-shiping ul li:last-child {
+    font-size: 12px;
+    }
+    .phone-11 {
+    margin-top: 0px;
+    }
+    .phone-11::before {
+    padding: 277px 0px 30px;
+    }
+    .weekly-deals {
+    margin-top: 30px;
+    }
+    .trend-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    }
+    .margin-minus {
+    margin-top: 10px;
+    }
+    .device-type-list {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    }
+    .device-type ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    }
+    .device-type ul li:nth-child(2) a{
+    font-size: 10px;
+    }
+    .device-type ul li:nth-child(3) a{
+    font-size: 10px;
+    }
+    .device-type ul li:nth-child(4) a{
+    font-size: 10px;
+    }
+    .device-type ul li:nth-child(5) a{
+    font-size: 10px;
+    }
+    .device-type ul li:nth-child(1) {
+    font-size: 14px;
+    margin-bottom: 0px;
+    }
+    .device-type ul li:nth-child(6) {
+    margin-top: 4px;
+    }
+    .device-type ul li:nth-child(6) a{
+    font-size: 12px;
+    }
+    .device-item-details .device-item:nth-child(3) {
+    margin: -45px 0px 0px;
+    }
+    .device-item-details .device-item:nth-child(4) {
+    margin: -45px 0px 0px;
+    }
+    .device-item-details .device-item:nth-child(5) {
+    margin: -45px 0px 0px;
+    }
+    .device-item-details .device-item:nth-child(6) {
+    margin: -45px 0px 0px;
+    }
+    .headphones {
+    margin-top: -30px;
+    }
+    }
+    @media(min-width: 991px) and (max-width: 1200px){
+    .nav-cross {
+    top: 4px;
+    left: 24%;
+    }
+    .nav-cart li:nth-child(2) a span {
+    top: -7px;
+    right: -13px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    }
+    .nav-cart li:nth-child(2) a i {
+    font-size: 16px;
+    }
+    .nav-cart li:nth-child(3) a span:nth-child(3) {
+    font-size: 0px;
+    margin-left: 0px;
+    }
+    .nav-cart li:nth-child(3) a i {
+    font-size: 16px;
+    }
+    #navbarSupportedContent #otherNavbar li {
+    padding: 0px 4px;
+    }
+    .discount-details{
+    left: 0px;
+    }
+    .super-discount {
+    margin-left: 35px;
+    }
+    .super-discount h5{
+    font-size: 16px;
+    }
+    .shop{
+    left: -400px;
+    right: -198px;
+    }
+    .phone-details{
+    margin-top: 180px;
+    }
+    .product-national-shiping {
+    grid-template-columns: 70% 30%;
+    }
+    .product-shiping ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    }
+    .price ul li:first-child {
+    font-size: 13px;
+    }
+    .price ul li:last-child {
+    font-size: 16px;
+    }
+    .price h2 a {
+    padding: 6px 10px;
+    font-size: 18px;
+    }
+    .device-item-details {
+    grid-template-columns: 49% 49%;
+    }
+    .galaxy::before {
+    padding: 340px 0px 30px;
+    }
+    .galaxy h3{
+    font-size: 20px;
+    }
+    .smartphone-accessories ul li:first-child {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    }
+    .product-repeat li:nth-child(1) a {
+    padding: 0px;
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    }
+    .product-repeat li:nth-child(2) a {
+    padding: 0px;
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    top: 27px;  
+    left: 33px;
+    }
+    .rate-monitor{
+    bottom: -190px;
+    }
+    .product-info-link {
+    padding: 0px 20px 10px;
+    }
+    .device-item:hover .product-repeat{
+    top: 51px;
+    }
+    .device-type-list {
+    padding: 15px;
+    grid-template-columns: 65% 35%;
+    }
+    .device-type ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    }
+    .device-type ul li:nth-child(6) a{
+    font-size: 14px;
+    }
+    .device-item-details .device-item:nth-child(3) {
+    margin: -45px 0px 0px;
+    }
+    .device-item-details .device-item:nth-child(4) {
+    margin: -45px 0px 0px;
+    }
+    .device-item-details .device-item:nth-child(5) {
+    margin: -45px 0px 0px;
+    }
+    .device-item-details .device-item:nth-child(6) {
+    margin: -45px 0px 0px;
+    }
+    .headphones {
+    margin-top: -30px;
+    }
+    }
+    @media(min-width: 1201px) and (max-width: 1400px){
+    .nav-cross {
+    top: 4px;
+    left: 19%;
+    }
+    #navbarSupportedContent #otherNavbar li {
+    padding: 0px 4px;
+    }
+    .discount-details{
+    left: -40px;
+    }
+    .shop{
+    left: -735px;
+    right: -330px;
+    }
+    .phone-details {
+    margin-top: 233px;
+    }
+    .smartphone-accessories ul li:first-child {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    }
+    .product-repeat li:nth-child(1) a {
+    padding: 0px;
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    }
+    .product-repeat li:nth-child(2) a {
+    padding: 0px;
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    top: 27px;  
+    left: 33px;
+    }
+    .galaxy::before{
+    padding-top: 400px;
+    }
+    .device-item:hover .product-repeat{
+    top: 51px;
+    }
+    .newsletter{
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+    }
